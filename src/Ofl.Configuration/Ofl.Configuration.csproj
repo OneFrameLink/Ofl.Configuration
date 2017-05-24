@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Description>Utilities for the .NET configuration system.</Description>
+    <TargetFramework>netstandard1.1</TargetFramework>
+    <AssemblyName>Ofl.Configuration</AssemblyName>
+    <PackageId>Ofl.Configuration</PackageId>
+    <PackageProjectUrl>https://github.com/OneFrameLink/Ofl.Configuration</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/OneFrameLink/Ofl.Configuration.git</RepositoryUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="1.1.2" />
+    <PackageReference Include="Ofl.Configuration.Abstractions" Version="1.0.2" />
+  </ItemGroup>
+
+</Project>

@@ -2,6 +2,7 @@
 using System.Threading;
 using System.Threading.Tasks;
 using Microsoft.Extensions.Configuration;
+using Ofl.Configuration.Abstractions;
 
 namespace Ofl.Configuration
 {
@@ -12,10 +13,7 @@ namespace Ofl.Configuration
         public ConfigurationConnectionStringManager(IConfiguration configuration)
         {
             // Validate parameters.
-            if (configuration == null) throw new ArgumentNullException(nameof(configuration));
-
-            // Assign values.
-            _configuration = configuration;
+            _configuration = configuration ?? throw new ArgumentNullException(nameof(configuration));
         }
 
         #endregion

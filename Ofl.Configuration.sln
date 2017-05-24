@@ -1,9 +1,14 @@
-﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.4
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ofl.Configuration", "Ofl.Configuration\Ofl.Configuration.csproj", "{E5B072EA-8F5A-463E-93B0-D2FFAD08BE09}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ofl.Configuration", "src\Ofl.Configuration\Ofl.Configuration.csproj", "{E5B072EA-8F5A-463E-93B0-D2FFAD08BE09}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4F37EEF2-D7CF-431D-9296-A3ABDE347468}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{D47502DB-DDFD-4DB7-8709-54D89A9A453C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ofl.Configuration.Tests", "test\Ofl.Configuration.Tests\Ofl.Configuration.Tests.csproj", "{ACBD2962-9B5B-42C9-8BDB-E686F1E240E2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,8 +20,16 @@ Global
 		{E5B072EA-8F5A-463E-93B0-D2FFAD08BE09}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E5B072EA-8F5A-463E-93B0-D2FFAD08BE09}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E5B072EA-8F5A-463E-93B0-D2FFAD08BE09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACBD2962-9B5B-42C9-8BDB-E686F1E240E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACBD2962-9B5B-42C9-8BDB-E686F1E240E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACBD2962-9B5B-42C9-8BDB-E686F1E240E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACBD2962-9B5B-42C9-8BDB-E686F1E240E2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E5B072EA-8F5A-463E-93B0-D2FFAD08BE09} = {4F37EEF2-D7CF-431D-9296-A3ABDE347468}
+		{ACBD2962-9B5B-42C9-8BDB-E686F1E240E2} = {D47502DB-DDFD-4DB7-8709-54D89A9A453C}
 	EndGlobalSection
 EndGlobal
