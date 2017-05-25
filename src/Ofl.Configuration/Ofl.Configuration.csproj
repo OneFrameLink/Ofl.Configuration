@@ -12,7 +12,7 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.Extensions.Configuration" Version="1.1.2" />
-    <PackageReference Include="Ofl.Configuration.Abstractions" Version="1.0.2" />
+    <PackageReference Include="Ofl.Configuration.Abstractions" Version="1.0.3" />
   </ItemGroup>
 
 </Project>
